@@ -3,6 +3,7 @@ body{
     direction: rtl;
     background-color: rgb(160, 192, 183);
     font-weight: bold;
+    text-align:center;
 }
 .zad{
     text-align: center;
@@ -106,3 +107,4 @@ p b{
     font-size: 20px;
 
 }
+

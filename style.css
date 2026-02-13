@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    direction: rtl;
+    background-color: rgb(160, 192, 183);
+    font-weight: bold;
+}
+.zad{
+    text-align: center;
+    background-color: rgb(231, 198, 9);
+    border-radius : 25px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.zad div{
+    animation: zed 2s ;
+}
+@keyframes zed{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+.zad h1{
+    font-size: xxx-large;
+}
+.zad p{
+    font-size: x-large;
+    margin-top: -10px;
+}
+nav{
+   background-color: green;
+   width: 100%;
+   margin: 12px 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 6px;
+}
+.page-1 h2{
+    text-align: center;
+    font-size: 33px;
+}
+ h3{
+    background-color: rgba(165, 43, 43, 0.918);
+    display: inline-block;
+    font-family:20px ;
+    
+}
+button{
+    background-color:#2d613e;
+color:white;
+border:2px solid #eead14;
+padding:10px 25px;
+border-radius:25px;
+font-size:16px;
+cursor:pointer;
+}
+img{
+    width:300px; 
+    border-radius:10px;
+}
+.name{
+    text-align: center;
+    font-size: x-large;
+}
+.name a{
+    margin-right: 13px;
+}
+footer{
+    text-align: center;
+}
+.link4{
+    color:gold;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.b{
+    background-color: brown;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+.pragraf{
+    text-align: center;
+    font-size: 23px;
+}
+p b{
+    font-size: 20px;
+}

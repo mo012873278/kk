@@ -58,9 +58,9 @@ nav ul li a{
     font-size: 33px;
 }
  h3{
-    background-color: rgba(165, 43, 43, 0.918);
+  background-color: rgb(218 41 41 / 83%);
     display: inline-block;
-    font-family:20px ;
+    font-size:20px ;
     
 }
 button{
@@ -107,4 +107,5 @@ p b{
     font-size: 20px;
 
 }
+
 
